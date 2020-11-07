@@ -16,7 +16,7 @@ if 'build' in os.listdir('.'):
     subprocess.call(["rm", "-rf", "build/"])
 
 setup(
-    name='stutils',
+    name='teledirector',
     version='0.0.1',
     packages=find_packages('src'),
     package_dir={'': 'src'},
