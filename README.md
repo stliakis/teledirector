@@ -4,7 +4,11 @@ With **TelegramDirector** you can create super simple telegram bot that executes
 
 First create a telegram bot via the telegram app. Search for the "botfather" bot on telegram, and create a new bot by typing /newbot and following the instructions, remember to save to bot token.
 
-When you have the token then simple start programming your commands
+When you have the token then install the teledirector package
+
+`pip install git+https://github.com/stliakis/teledirector.git --upgrade`
+
+and write some commands
 
 ```python
 
