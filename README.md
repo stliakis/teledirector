@@ -27,7 +27,7 @@ def _(message):
 
 @director.register(["update"], description="Updates the git repo")
 def _(message):
-    message.reply_text("shell: " + str(os.system('cd /home/stefanos/Desktop;touch test;')))
+    message.reply_text("shell: " + str(os.system('cd /home/someproject/;git fetch;git pull;service uwsgi restart;')))
 
 
 director.start()
