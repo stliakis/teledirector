@@ -1,14 +1,13 @@
 With **TelegramDirector** you can create super simple telegram bot that executes custom server side commands
 
+
+`pip install git+https://github.com/stliakis/teledirector.git --upgrade`
+
 **How to**
 
 First create a telegram bot via the telegram app. Search for the "botfather" bot on telegram, and create a new bot by typing /newbot and following the instructions, remember to save to bot token.
 
-When you have the token then install the teledirector package
-
-`pip install git+https://github.com/stliakis/teledirector.git --upgrade`
-
-and write some commands
+Then write some commands
 
 ```python
 
