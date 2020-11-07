@@ -34,3 +34,13 @@ director.start()
 
 
 ```
+
+
+By using a hub you can collect all the chat ids that are active and send messages on demand
+
+```python
+director = TelegramDirector("your token",
+                            hub=RedisDirectorHub("localhost:6379"))
+
+director.send_message("The limit has been reached")
+```
