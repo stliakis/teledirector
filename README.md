@@ -1,4 +1,4 @@
-With **TelegramDirector** you can create super simple telegram bot that executes custom server side commands
+With **TelegramDirector** you can create super simple telegrams bot that executes custom server side commands
 
 
 `pip install git+https://github.com/stliakis/teledirector.git --upgrade`
